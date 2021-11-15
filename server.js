@@ -6,7 +6,7 @@ app.use(express.static(__dirname + "/dist"));
 const port = process.env.PORT || 4000;
 
 app.use("/api",(req,res)=>{
-    res.send("こんにちは");
+    res.send("こんにちは,Hello");
 });
 
 app.listen(port,()=>{
